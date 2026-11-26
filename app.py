@@ -17,3 +17,7 @@ def Kimura():
 @app.route("/akiyama")
 def akiyama():
     return "こんにちは＾＾"
+
+@app.route("/Chu")
+def Chu():
+    return "yahho"
