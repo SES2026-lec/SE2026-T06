@@ -13,3 +13,7 @@ def higashi():
 @app.route("/Kimura")
 def Kimura():
     return "Kimuraのページです！自治会をらくにするよ！！"
+
+@app.route("/akiyama")
+def akiyama():
+    return "こんにちは＾＾"
