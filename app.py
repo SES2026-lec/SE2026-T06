@@ -29,3 +29,15 @@ def higashi_vscode():
 @app.route("/kimura_vscode")
 def kimura_vscode():
     return "俺がした"
+
+
+
+
+
+@app.route("/hi^^")
+def hi():
+    return "hi~^^"
+
+@app.route("/gaha")
+def gaha():
+    return "gahaha^^"
