@@ -25,3 +25,7 @@ def Chu():
 @app.route("/higashi_vscode")
 def higashi_vscode():
     return "VSCodeから変更した"
+
+@app.route("/kimura_vscode")
+def kimura_vscode():
+    return "俺がした"
