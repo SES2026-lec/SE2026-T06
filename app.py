@@ -21,3 +21,7 @@ def akiyama():
 @app.route("/Chu")
 def Chu():
     return "yahho"
+
+@app.route("/higashi_vscode")
+def higashi_vscode():
+    return "VSCodeから変更した"
