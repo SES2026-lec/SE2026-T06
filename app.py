@@ -30,7 +30,9 @@ def higashi_vscode():
 def kimura_vscode():
     return "俺がした"
 
-
+@app.route("/AAAAA")
+def AAAAA():
+    return "aaaaa"
 
 
 
