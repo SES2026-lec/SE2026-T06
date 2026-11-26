@@ -9,3 +9,7 @@ def home():
 @app.route("/higashi")
 def higashi():
     return "東のページです！自治会の会計をLINEで楽にするサービスを作っています。"
+
+@app.route("/Kimura")
+def Kimura():
+    return "Kimuraのページです！自治会をらくにするよ！！"
